@@ -81,8 +81,8 @@ def add_descriptions_to_json(input_file, output_file):
 
 def main():
     # File paths
-    input_file = "./data/yoga_poses.json"
-    output_file = "./data/yoga_poses_with_descriptions.json"
+    input_file = "./data/yoga_poses_alldata.json" #"./data/yoga_poses.json"
+    output_file = "./data/yoga_poses_alldata_with_descriptions.json" # "./data/yoga_poses_with_descriptions.json"
 
     # Add descriptions and save the updated JSON
     add_descriptions_to_json(input_file, output_file)
